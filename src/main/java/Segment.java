@@ -11,6 +11,6 @@ public class Segment {
     }
 
     double length(){
-        endPoint1.distanceTo(endPoint2)
+        return endPoint1.distanceTo(endPoint2);
     }
 }
